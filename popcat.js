@@ -5,6 +5,7 @@
  * 3. Go to "Console" tab
  * 4. Copy and paste this script
  * 5. Press ENTER
+ * ps. Credit Legit auto pop by Noxturnix
  */
 function getRandomString(length) {
   var randomChars = "abcdefghijklmnopqrstuvwxyz";
