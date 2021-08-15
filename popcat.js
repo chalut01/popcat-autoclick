@@ -7,7 +7,7 @@
  * 5. Press ENTER
  * ps. Credit Legit auto pop by Noxturnix
  */
-function getRandomString(length) {
+function getRandomKey(length) {
   var randomChars = "abcdefghijklmnopqrstuvwxyz";
   var result = "";
   for (var i = 0; i < length; i++) {
@@ -19,13 +19,13 @@ function getRandomString(length) {
 }
 
 function sleepRandom() {
-  min = 25;
-  max = 50;
+  min = 40;
+  max = 60;
   return Math.floor(Math.random() * (max - min) + min);
 }
 
 function pop() {
-  let keyDownEvent = new KeyboardEvent("keydown", { key: getRandomString(1) });
+  let keyDownEvent = new KeyboardEvent("keydown", { key: getRandomKey(1) });
   document.dispatchEvent(keyDownEvent);
 }
 
